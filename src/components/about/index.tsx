@@ -27,7 +27,14 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-4xl">
-            Frontend Web & App Devloper
+            Frontend Devloper
+          </p>
+        </ItemLayout>
+         <ItemLayout
+          className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
+        >
+          <p className="font-semibold w-full text-left text-2xl sm:text-4xl">
+            React Native Devloper
           </p>
         </ItemLayout>
 
@@ -36,7 +43,17 @@ const AboutDetails = () => {
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             1+
-            <sub className="font-semibold text-base">years of experience</sub>
+            <sub className="font-semibold text-base">years of experience in FrontEnd Development</sub>
+          </p>
+
+        </ItemLayout>
+        <ItemLayout
+          className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
+        >
+
+           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+            5months
+            <sub className="font-semibold text-base">of experience in React Native Development</sub>
           </p>
         </ItemLayout>
 
@@ -90,7 +107,7 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=umanggarg&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=umang9720&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
             alt="Umang Garg"
             loading="lazy"
           />
@@ -99,7 +116,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=umanggarg&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=umang9720&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
             alt="Umang Garg"
             loading="lazy"
           />
@@ -108,7 +125,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,ai,babel,bootstrap,css,docker,dart,discord,express,figma,firebase,flutter,git,github,githubactions,graphql,go,html,htmx,js,jquery,kubernetes,linux,mongodb,netlify,nextjs,nodejs,postman,prisma,react,redis,redux,replit,sass,tailwind,threejs,ts,vercel,vite,vscode`}
+            src={`https://skillicons.dev/icons?i=,ai,babel,bootstrap,css,discord,express,figma,firebase,git,github,githubactions,html,js,jquery,linux,mongodb,netlify,nextjs,nodejs,postman,react,redis,redux,replit,sass,tailwind,threejs,ts,vercel,vite,vscode`}
             alt="Umang Garg"
             loading="lazy"
           />
@@ -117,26 +134,26 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=umanggarg&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=umang9720&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
             alt="Umang Garg"
             loading="lazy"
           />
         </ItemLayout>
 
-        {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=umanggarg&repo=UmangGarg&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=umang9720&repo=umang9720&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
             alt="Umang Garg"
             loading="lazy"
           />
           <Link
-            href="/"
+            href="https://github.com/umang9720"
             target="_blank"
             className="w-full"
           >
           </Link>
-        </ItemLayout> */}
+        </ItemLayout>
       </div>
     </section>
   );

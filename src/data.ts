@@ -56,6 +56,21 @@ export const projectsData: ProjectListType[] = [
     sourceLink: "https://github.com/umang9720/clothing-brand",
     techStack: ["Python", "Open AI", "Git"],
   },
+  {
+    id: 6,
+    name: "Imaginary Ink",
+    subHeading: "Focused on generating high-quality visuals using AI and user-driven feedback.",
+    description:"Developed/Utilized a generative AI tool that leverages large-scale user preference data to synthesize high-quality 2D and 3D images from input images. The system integrates deep learning models with user feedback loops to improve visual fidelity, style alignment, and realism over time.",
+    demoLink: "/",
+    sourceLink: "/",
+    techStack: [
+      "Next.js",
+      "Typescript",
+      "Shadcn",
+      "Git",
+    "Python"
+    ],
+  },
 ];
 
 export const BtnList: BtnListType[] = [
@@ -88,7 +103,7 @@ export const BtnList: BtnListType[] = [
   // },
   {
     label: "Resume",
-    link: "/",
+    link: "Umang Resume.pdf",
     icon: "resume",
     newTab: true,
   },
